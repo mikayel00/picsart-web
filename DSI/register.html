@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSI | Register Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/registerPage.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="page__register">
+            <a class="back back__website" href="index.html">Go back to website</a>
+            <h1 class="header__title">Registration Form</h1>
+            <form action="" method="get">
+                <div class="register__input">
+                    <input class="register__item" type="text" placeholder="First name" required>
+                    <input class="register__item" type="text" placeholder="Last name" required>
+                </div>
+                <div class="register__input">
+                    <input class="register__item max" type="phone" placeholder="Username" required>
+                </div>
+                <div class="register__input">
+                    <input class="register__item max" type="phone" placeholder="Phone number" required>
+                </div>
+                <div class="register__input">
+                    <input class="register__item max" type="password" placeholder="Password" required>
+                </div>
+                <div class="register__input">
+                    <input class="register__item max" type="password" placeholder="Confirm password" required>
+                </div>
+                <h2 class="title">Birthday</h2>
+                <div class="register__input">
+                    <input id="bday" class="register__item max" type="date" placeholder="Confirm password" required>
+                </div>
+                <h2 class="title">Choose your gender</h2>
+                <div class="register__input">
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                </div>
+                <br>
+                <div class="register__input">
+                    <input class="register__item" type="text" placeholder="Country" required>
+                    <input class="register__item" type="text" placeholder="City" required>
+                </div>
+                <div class="register__input agreement">
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree"> I agree to the <a href="#" class="terms">terms of service</a></label>
+                </div>
+                <div class="register__submit">
+                    <button class="register__send" type="submit">Register</button>
+                </div>
+                <hr class="login__line">
+                <a class="back" href="login.html">You can login if already have an account</a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

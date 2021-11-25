@@ -1,0 +1,118 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #30444E;
+    background-color: #F6F6F6;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__title{
+    padding: 0 0 15px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.page__register {
+    position: relative;
+    border-radius: 12px;
+    padding: 50px;
+    background-color: #fff;
+}
+.back__website{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.register__input{
+    box-sizing: content-box;
+}
+
+.register__item{
+    margin: 3px auto;
+    padding: 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    min-width: 150px;
+    font-size: 16px;
+    transition: all .1s linear;
+}
+.register__item:hover{
+    border: 1px solid #EE4248;
+}
+.register__item:focus{
+    border: 2px solid #EE4248;
+    padding: 15px;
+}
+.max{
+    width: 100%;
+}
+
+.register__input label{
+    margin: 50px 0;
+}
+
+.title{
+    padding: 10px 0;
+}
+.terms {
+    padding: 10px 0 0 0;
+    font-style: italic;
+    text-decoration: underline;
+    color: #30444E;
+}
+input[type=checkbox]{
+    margin: 0 10px 0 0;
+}
+.register__submit {
+    padding: 15px 0 0 0;
+}
+.register__send {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 15px 16px;
+    background-color: #EE4248;
+    transition: all .1s linear;
+    color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.register__send:hover {
+    background-color: #30444E;
+}
+
+.login__line{
+    margin: 10px 0 0 0;
+    border: 1px solid #dddfe2;
+}
+
+.back{
+    font-size: 12px;
+    color: #EE4248;
+    transition: all .1s linear;
+}
+.back:hover {
+    color: #233148;
+}
